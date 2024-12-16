@@ -1,3 +1,6 @@
+//Write a fuction called same , which accepts two arrays. 
+//The function should return true if every value in the array has its corresponding value suared in the second array. The frequency of values must be the same.
+
 function same(a, b) {
     //loop through both arrays
     var c = [];
