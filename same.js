@@ -1,6 +1,3 @@
-//Write a fuction called same , which accepts two arrays. 
-//The function should return true if every value in the array has its corresponding value suared in the second array. The frequency of values must be the same.
-
 function same(a, b) {
     //loop through both arrays
     var c = [];
@@ -11,11 +8,13 @@ function same(a, b) {
 
             if(a[i]*a[i] === b[j]) {
                c.push(true); 
+            } else {
+            //   c.push(false); 
             }
         }
     }
     console.log(c);
-    if(c.length === a.length){
+    if((c.length === a.length) && (b.length === a.length)){
         console.log(true);
     } else {
          console.log(false)
